@@ -530,7 +530,13 @@
 }
 .parant-portfolio-section {
   max-width: 1440px;
-  height: 900px;
+  margin: auto;
+}
+.main-wrapper-about-container {
+  width: 100%;
+  background: #4b658f;
+  padding-top: 76px;
+  padding-bottom: 96px;
 }
 .main-parant-portfolio-section {
   width: 100%;
@@ -627,9 +633,7 @@
 }
 .main-about-details-container {
   max-width: 1440px;
-  height: 780px;
-  flex-shrink: 0;
-  background: #4b658f;
+  margin: auto;
 }
 .about-header-container {
   width: 100%;
