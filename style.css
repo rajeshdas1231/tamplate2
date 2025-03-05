@@ -714,7 +714,7 @@
 }
 .plan-container-section {
   max-width: 1440px;
-  height: 9171px;
+  margin: auto;
 }
 .main-plan-container-section {
   width: 100%;
@@ -953,6 +953,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.plan-comparison-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+  width: 100%;
 }
 .cpmparison-containt {
   color: #153350;
@@ -1012,4 +1026,22 @@
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 137.5% */
+}
+.plan-comparison-container-wrapper{
+  width: 100%;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.common-header-line{
+  background: #DEDEDE;
+  width: 63px;
+height: 8px;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
